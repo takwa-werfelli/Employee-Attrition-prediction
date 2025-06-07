@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Application de Prédiction d'Attrition</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title">Système de Prédiction de l'Attrition des Salariés</h1>
+
+        <img src="{{ url_for('static', filename='images/Employee-Attrition.png') }}" alt="Image attrition" class="header-img">
+
+        <form action="/predict" method="post">
+            <input type="number" name="OverTime" placeholder="OverTime" required>
+            <input type="number" name="MaritalStatus" placeholder="MaritalStatus" required>
+            <input type="number" name="JobInvolvement" placeholder="JobInvolvement" required>
+            <input type="number" name="YearsAtCompany" placeholder="YearsAtCompany" required>
+            <input type="number" name="StockOptionLevel" placeholder="StockOptionLevel" required>
+            <input type="number" name="YearsWithCurrManager" placeholder="YearsWithCurrManager" required>
+            <input type="number" name="Age" placeholder="Age" required>
+            <input type="number" name="MonthlyIncome" placeholder="MonthlyIncome" required>
+            <input type="number" name="YearsInCurrentRole" placeholder="YearsInCurrentRole" required>
+            <input type="number" name="JobLevel" placeholder="JobLevel" required>
+            <input type="number" name="TotalWorkingYears" placeholder="TotalWorkingYears" required>
+            <button type="submit">Prédire</button>
+        </form>
+        {% if prediction_text %}
+        <div class="result">{{ prediction_text }}</div>
+        {% endif %}
+    </div>
+</body>
+</html>

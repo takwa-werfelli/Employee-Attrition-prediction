@@ -1,0 +1,18 @@
+# Environnement virtuel
+.venv/
+env/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+*.ipynb_checkpoints
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
