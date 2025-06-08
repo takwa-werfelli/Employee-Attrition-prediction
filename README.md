@@ -4,6 +4,7 @@ Ce projet a pour objectif de prédire si un employé est susceptible de quitter 
 Les données utilisées dans ce projet proviennent du jeu de données disponible sur Kaggle :  
 🔗 [Jeu de données IBM HR Analytics sur Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
+
 ---
 
 ## Contenu du projet
@@ -18,6 +19,7 @@ Les données utilisées dans ce projet proviennent du jeu de données disponible
 - Sauvegarde et chargement du modèle  
 - Prédiction sur de nouvelles données
 
+---
 
 ## Modèles utilisés
 
@@ -30,6 +32,7 @@ Quatre modèles de classification ont été testés :
 
 Le modèle final retenu est la **Régression Logistique**, sélectionnée pour sa simplicité, sa performance et sa capacité à être interprétée.
 
+---
 
 ## Attributs utilisés dans le modèle
 
@@ -47,6 +50,7 @@ Voici les variables sélectionnées pour entraîner le modèle final :
 - `JobLevel` : Niveau hiérarchique dans l'organisation  
 - `TotalWorkingYears` : Nombre total d'années d’expérience professionnelle
 
+---
 
 ## Prétraitement des données
 
@@ -56,20 +60,21 @@ Voici les variables sélectionnées pour entraîner le modèle final :
 - Encodage des variables catégorielles avec `LabelEncoder`  
 - Visualisation des corrélations pour la sélection des variables les plus influentes
 
+---
 
 ## Installation et utilisation
 
-### 1. Cloner le dépôt
+###  Cloner le dépôt
 
 ```bash
 git clone https://github.com/takwa-werfelli/Employee-Attrition-prediction.git
 cd Employee-Attrition-prediction
 
-### 1.Technologies utilisées
+### Technologies utilisées
 
-- **Python**
-- **Pandas**, **NumPy** : manipulation des données  
+- **Python**  
+- **Pandas, NumPy** : manipulation des données  
 - **Scikit-learn** : machine learning et évaluation  
-- **Matplotlib**, **Seaborn** : visualisation des données  
+- **Matplotlib, Seaborn** : visualisation des données  
 - **Joblib** : sauvegarde et chargement du modèle  
-- **HTML / CSS** : création et mise en forme de l'interface utilisateur  
+- **HTML / CSS** : création et mise en forme de l'interface utilisateur
