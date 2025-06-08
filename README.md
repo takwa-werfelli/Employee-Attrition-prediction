@@ -74,7 +74,12 @@ Voici les variables sélectionnées pour entraîner le modèle final :
 
 ## Installation et utilisation
 
-### 1. Cloner le dépôt
+1. **Installer les dépendances**  
+   Ouvrez un terminal dans le dossier du projet puis lancez :  
+   ```bash
+   pip install -r requirements.txt
+
+2. **Cloner le dépôt** 
 
 ```bash
 git clone https://github.com/takwa-werfelli/Employee-Attrition-prediction.git
