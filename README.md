@@ -4,6 +4,16 @@ Ce projet a pour objectif de prédire si un employé est susceptible de quitter 
 Les données utilisées dans ce projet proviennent du jeu de données disponible sur Kaggle :  
 🔗 [Jeu de données IBM HR Analytics sur Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
+---
+
+## 2. Technologies utilisées
+
+- **Python**  
+- **Pandas, NumPy** : manipulation des données  
+- **Scikit-learn** : machine learning et évaluation  
+- **Matplotlib, Seaborn** : visualisation des données  
+- **Joblib** : sauvegarde et chargement du modèle  
+- **HTML / CSS** : création et mise en forme de l'interface utilisateur
 
 ---
 
@@ -64,17 +74,8 @@ Voici les variables sélectionnées pour entraîner le modèle final :
 
 ## Installation et utilisation
 
-###  Cloner le dépôt
+### 1. Cloner le dépôt
 
 ```bash
 git clone https://github.com/takwa-werfelli/Employee-Attrition-prediction.git
 cd Employee-Attrition-prediction
-
-### Technologies utilisées
-
-- **Python**  
-- **Pandas, NumPy** : manipulation des données  
-- **Scikit-learn** : machine learning et évaluation  
-- **Matplotlib, Seaborn** : visualisation des données  
-- **Joblib** : sauvegarde et chargement du modèle  
-- **HTML / CSS** : création et mise en forme de l'interface utilisateur
