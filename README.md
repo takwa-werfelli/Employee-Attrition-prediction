@@ -64,3 +64,12 @@ Voici les variables sélectionnées pour entraîner le modèle final :
 ```bash
 git clone https://github.com/takwa-werfelli/Employee-Attrition-prediction.git
 cd Employee-Attrition-prediction
+
+### 1.Technologies utilisées
+
+- **Python**
+- **Pandas**, **NumPy** : manipulation des données  
+- **Scikit-learn** : machine learning et évaluation  
+- **Matplotlib**, **Seaborn** : visualisation des données  
+- **Joblib** : sauvegarde et chargement du modèle  
+- **HTML / CSS** : création et mise en forme de l'interface utilisateur  
