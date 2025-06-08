@@ -6,7 +6,7 @@ Les données utilisées dans ce projet proviennent du jeu de données disponible
 
 ---
 
-## 2. Technologies utilisées
+## Technologies utilisées
 
 - **Python**  
 - **Pandas, NumPy** : manipulation des données  
